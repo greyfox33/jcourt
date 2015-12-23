@@ -1,0 +1,46 @@
+CountyCode - integer, 01-99
+ContinuanceHearingType - string, code to describe hearing type
+CourtDepartmentNumber - integer
+Date
+Time
+SummaryResult - free text
+Court info
+   -- insert court info here
+
+JudicialOfficer
+Hearing Attendees
+LastUpdated
+Petition -- text, jv #
+CourtReport -- text, jv #
+LanguageInterpreter -- Spanish, Vietnamese, etc.
+
+
+
+
+
+Attendee
+
+First
+Last
+SSN
+DOB
+RelatedToChild - Y/N
+Description
+CADL - license, string
+
+
+contract
+
+CountyCode - integer, 01-99
+HearingType - string
+CourtDepartment
+Date - date
+Time - time
+SummaryResult
+Status 
+Judge
+AttendeeFirst
+AttendeeLast
+Language - string
+Petition # - string
+CwcaseID
