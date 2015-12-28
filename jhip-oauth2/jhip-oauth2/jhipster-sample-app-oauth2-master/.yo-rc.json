@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "baseName": "sampleOAuth2",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": true,
+    "rememberMeKey": "ff67f159ae854e615896ddd1daf46897afdb59ec",
+    "useSass": false,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableSocialSignIn": false
+  }
+}
